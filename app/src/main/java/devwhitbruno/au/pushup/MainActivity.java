@@ -18,4 +18,11 @@ public class MainActivity extends AppCompatActivity {
     public ComponentName startForegroundService(Intent service) {
         return super.startForegroundService(service);
     }
+
+
+    public void agora(int a ){
+        for (int i = 0; i < 10; i++) {
+            System.out.println(i  + " " );
+        }
+    }
 }
